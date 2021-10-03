@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
 *{
     user-select: none;
 }
@@ -10,6 +17,7 @@ body{
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(to right, #dddddd, white);
+    overflow: hidden;
     .form-window{
         height: 55vh;
         width: 50vw;
@@ -87,6 +95,7 @@ body{
                 cursor: pointer;
                 border-radius: 25px;
                 padding: 5px 10px;
+                transition: .3s;
                 &:hover{
                     background: white;
                     color: #b62c1d;

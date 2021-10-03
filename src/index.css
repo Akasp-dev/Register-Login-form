@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
 * {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -19,6 +34,7 @@ body {
   height: 100vh;
   background-image: -webkit-gradient(linear, left top, right top, from(#dddddd), to(white));
   background-image: linear-gradient(to right, #dddddd, white);
+  overflow: hidden;
 }
 
 body .form-window {
@@ -139,6 +155,8 @@ body .form-window .cover button {
   cursor: pointer;
   border-radius: 25px;
   padding: 5px 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 body .form-window .cover button:hover {
