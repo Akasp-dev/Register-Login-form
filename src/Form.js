@@ -45,7 +45,7 @@ class Form extends Component{
                 </div>
                 <form>
                     <h1>Rejestracja</h1>
-                    <input type="text" placeholder="Nazwa uzytkownika"></input>
+                    <input type="text" placeholder="Nazwa uzytkownika fdsafdsafsd"></input>
                     <input type="email" placeholder="E-mail"></input>
                     <input type="password" placeholder="Hasło"></input>
                     <input type="password" placeholder="Potwierdź hasło"></input>
