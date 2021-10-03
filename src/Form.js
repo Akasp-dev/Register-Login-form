@@ -40,7 +40,7 @@ class Form extends Component{
                     </div>
                     <div className={classNames("login", this.state.loginClass)}>
                         <h1>Nie posiadasz konta?</h1>
-                        <button onClick={this.handleClick}>Zarejestruj się fdafdsafdsafdsafsd</button>
+                        <button onClick={this.handleClick}>Zarejestruj się</button>
                     </div>
                 </div>
                 <form>
